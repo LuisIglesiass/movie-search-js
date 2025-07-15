@@ -18,7 +18,6 @@ searchButton.addEventListener('click', async function (event){
     const data = await response.json();
 	console.log('data: ', data);
 
-	// Limpiar resultados anteriores
 	mainSection.innerHTML = '';
 
 	if (data.Search) {
@@ -36,6 +35,6 @@ searchButton.addEventListener('click', async function (event){
 			mainSection.appendChild(article);
 		});
 	} else {
-		mainSection.textContent = 'No se encontraron resultados.';
+		mainSection.textContent = 'No results found.';
 	}
 });
