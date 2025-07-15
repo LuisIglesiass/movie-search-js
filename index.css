@@ -51,6 +51,32 @@ input::placeholder {
 
 .search-form {
   max-width: 100%;
+  background-color: #1c1c1e;
+  color: #ffffff;
+}
+
+header {
+  max-width: fit-content;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+form {
+  max-width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  background-color: #f0f0f0;
+  color: #111111;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+input::placeholder {
+  font-size: 0.85em;
 }
 
 section {
@@ -74,12 +100,11 @@ section {
 }
 
 #main-section {
-  margin-bottom: 200px; /* Ajusta el valor si tu footer es más alto */
+  margin-bottom: 200px;
 }
 
-/* Estilo para los artículos de película */
 section article {
-  background: #1e1e1e; /* un poco más elegante que #232323 */
+  background: #1e1e1e;
   border-radius: 12px;
   padding: 16px;
   width: 200px;
@@ -91,6 +116,13 @@ section article {
 section article:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+section article {
+  background: #232323;
+  border-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 section img {
@@ -105,6 +137,13 @@ section h3 {
   font-size: 1.2rem;
   margin: 0;
   margin-bottom: 6px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+section h3 {
+  font-size: 1.1em;
+  margin: 0;
   color: #ff4c29;
 }
 
@@ -149,4 +188,14 @@ footer a {
 footer a:hover {
   color: #f54421;
   text-decoration: underline;
+}
+  background-color: #ff4c29;
+  color: #ffffff;
+  border-color: #2a2a2a;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+button:hover {
+  background-color: #e54322;
 }

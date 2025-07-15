@@ -16,8 +16,6 @@ searchButton.addEventListener('click', async function (event){
 	event.preventDefault();
 	const response = await fetch(`https://www.omdbapi.com/?s=${inputUser.value}&apikey=${apiKey}`)
     const data = await response.json();
-	console.log('data: ', data);
-
 	mainSection.innerHTML = '';
 
 	if (data.Search) {
@@ -36,5 +34,6 @@ searchButton.addEventListener('click', async function (event){
 		});
 	} else {
 		mainSection.textContent = 'No results found.';
+		mainSection.textContent = 'No se encontraron resultados.';
 	}
 });
