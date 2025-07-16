@@ -46,6 +46,7 @@
 🧠 What I Learned
 
 This project helped me improve:
+
 	•	My understanding of asynchronous JavaScript using fetch and async/await
 	•	DOM manipulation and dynamic rendering
 	•	Creating responsive and user-friendly UIs without libraries
