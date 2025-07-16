@@ -34,6 +34,5 @@ searchButton.addEventListener('click', async function (event){
 		});
 	} else {
 		mainSection.textContent = 'No results found.';
-		mainSection.textContent = 'No se encontraron resultados.';
 	}
 });
