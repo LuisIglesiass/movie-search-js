@@ -1,0 +1,154 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  max-width: fit-content;
+  margin: 0 auto;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+header {
+  max-width: fit-content;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+form {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding: 10px 20px;
+}
+
+input {
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  color: #111;
+  width: 260px;
+  transition: box-shadow 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ff4c29;
+}
+
+input::placeholder {
+  font-size: 0.95em;
+}
+
+.search-form {
+  max-width: 100%;
+  background-color: #1c1c1e;
+  color: #ffffff;
+}
+
+#search-form {
+  margin-top: 16px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-section {
+  margin-bottom: 200px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+  justify-content: center;
+}
+
+section article {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section article:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+section img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+section h3 {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  color: #ff4c29;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #ff4c29;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #e03e1e;
+  transform: scale(1.05);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  background-color: #232323;
+  color: #ffffff;
+  text-align: center;
+  padding: 18px 0 12px 0;
+  border-top: 2px solid #ff4c29;
+  font-size: 1em;
+  z-index: 100;
+}
+
+footer a {
+  color: #ff4c29;
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #f54421;
+  text-decoration: underline;
+}
