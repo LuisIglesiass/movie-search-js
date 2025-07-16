@@ -114,7 +114,7 @@ section article {
 }
 
 section article:hover {
-  transform: translateY(-5px);
+  transform: translateY(-15px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 section article {
   background: #232323;
