@@ -1,4 +1,5 @@
-const apiKey = process.env.OMDB_API_KEY;
+import apiKey from './apiKey.js';
+
 let searchButton = document.getElementById('search-button');
 let inputUser = document.getElementById('input-user');
 let loadingSpinner = document.getElementById('loading-spinner');
