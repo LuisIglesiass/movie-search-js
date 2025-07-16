@@ -15,6 +15,10 @@ h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c382368 (Manual fix: Clean up merge conflicts and duplicated code, add .gitignore for apiKey.js)
 header {
   max-width: fit-content;
   margin: 0 auto;
@@ -55,6 +59,7 @@ input::placeholder {
   color: #ffffff;
 }
 
+<<<<<<< HEAD
 header {
   max-width: fit-content;
   margin: 0 auto;
@@ -79,6 +84,8 @@ input::placeholder {
   font-size: 0.85em;
 }
 
+=======
+>>>>>>> c382368 (Manual fix: Clean up merge conflicts and duplicated code, add .gitignore for apiKey.js)
 section {
   /* display: none; */
   display: flex;
@@ -116,6 +123,7 @@ section article {
 section article:hover {
   transform: translateY(-15px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+<<<<<<< HEAD
 section article {
   background: #232323;
   border-radius: 8px;
@@ -125,6 +133,9 @@ section article {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
+=======
+}
+>>>>>>> c382368 (Manual fix: Clean up merge conflicts and duplicated code, add .gitignore for apiKey.js)
 section img {
   width: 100%;
   height: 260px;
@@ -139,11 +150,14 @@ section h3 {
   margin-bottom: 6px;
   border-radius: 4px;
   margin-bottom: 8px;
+<<<<<<< HEAD
 }
 
 section h3 {
   font-size: 1.1em;
   margin: 0;
+=======
+>>>>>>> c382368 (Manual fix: Clean up merge conflicts and duplicated code, add .gitignore for apiKey.js)
   color: #ff4c29;
 }
 
@@ -189,12 +203,15 @@ footer a:hover {
   color: #f54421;
   text-decoration: underline;
 }
+<<<<<<< HEAD
   background-color: #ff4c29;
   color: #ffffff;
   border-color: #2a2a2a;
   border-radius: 5px;
   padding: 1%;
 }
+=======
+>>>>>>> c382368 (Manual fix: Clean up merge conflicts and duplicated code, add .gitignore for apiKey.js)
 
 button:hover {
   background-color: #e54322;
