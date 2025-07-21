@@ -152,3 +152,20 @@ footer a:hover {
   color: #f54421;
   text-decoration: underline;
 }
+
+.loading-animation {
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-top: 4px solid #ff3d00;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
